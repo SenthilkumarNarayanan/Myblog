@@ -11,8 +11,8 @@ import blog_pic_10 from './blog_pic_10.png';
 import facebook_icon from './facebook_icon.svg'
 import googleplus_icon from './googleplus_icon.svg'
 import twitter_icon from './twitter_icon.svg'
-import logo from './logo.svg'
-import arrow from './arrow.svg'
+import logo from './logo.avif'
+import login from './login.jpg'
 import logo_light from './logo_light.svg'
 import blog_icon from './blog_icon.png'
 import add_icon from './add_icon.svg'
@@ -23,7 +23,7 @@ import user_icon from './user_icon.svg'
 import bin_icon from './bin_icon.svg'
 import comment_icon from './comment_icon.svg'
 import tick_icon from './tick_icon.svg'
-import star_icon from './star_icon.svg'
+import new_icon from './new_icon.jpg'
 import cross_icon from './cross_icon.svg'
 import home_icon from './home_icon.svg'
 import gradientBackground from './gradientBackground.png'
@@ -31,14 +31,15 @@ import dashboard_icon_1 from './dashboard_icon_1.svg'
 import dashboard_icon_2 from './dashboard_icon_2.svg'
 import dashboard_icon_3 from './dashboard_icon_3.svg'
 import dashboard_icon_4 from './dashboard_icon_4.svg'
-
+import  subscriber from  './subscribe.png';
 
 export const assets = {
     facebook_icon,
     googleplus_icon,
     twitter_icon,
+    subscriber,
     logo,
-    arrow,
+    login,
     logo_light,
     blog_icon,
     add_icon,
@@ -48,7 +49,7 @@ export const assets = {
     bin_icon,
     comment_icon,
     tick_icon,
-    star_icon,
+    new_icon,
     home_icon,
     gradientBackground,
     list_icon,
@@ -67,8 +68,8 @@ export const blog_data = [
         "description": "<h1>A Simple Step-by-Step Guide to Managing Your Lifestyle</h1><p>If you're looking to improve your health, boost productivity, and create a balanced life, managing your lifestyle intentionally is key. Here's a short guide to help you take control of your daily habits and overall well-being.</p><h2>1. Assess Your Current Lifestyle</h2><p>Track your habits for a week. Note your energy levels, sleep, diet, and daily routines. Reflect on what's working and what needs change.</p><h2>2. Focus on Health</h2><p>Eat balanced meals, stay hydrated, get enough sleep, and move your body daily. Mental health matters too—set boundaries and practice mindfulness.</p><h2>3. Set Clear Goals</h2><p>Break your goals into categories like health, career, and relationships. Make them specific and achievable.</p><h2>4. Create Daily Routines</h2><p>Establish morning and evening routines. Plan your days and weeks with intention using a planner or digital calendar.</p><h2>5. Manage Time Wisely</h2><p>Prioritize important tasks, limit distractions, and take regular breaks. Learn to say no when needed.</p><h2>6. Handle Finances Smartly</h2><p>Track your spending, set a budget, save regularly, and build financial literacy. Financial stability supports overall peace of mind.</p><h2>7. Build Strong Relationships</h2><p>Surround yourself with supportive people. Communicate openly and maintain healthy boundaries.</p><h2>8. Keep Learning</h2><p>Read, take online courses, or explore new hobbies. Personal growth keeps life fulfilling and dynamic.</p><h2>9. Declutter Regularly</h2><p>Simplify your physical and digital spaces. Clear surroundings help reduce stress and increase focus.</p><h2>10. Celebrate Small Wins</h2><p>Track your progress, reflect often, and reward yourself for sticking to positive habits. Consistency is more important than perfection.</p><p><strong>Final Tip</strong>: Start small, stay consistent, and review your lifestyle regularly. With steady effort, a well-managed life becomes a natural way of living.</p>",
         "category": "Lifestyle",
         "image": blog_pic_1,
-        "createdAt": "2025-04-21T07:06:37.508Z",
-        "updatedAt": "2025-04-24T08:26:29.750Z",
+        "createdAt": "2024-01-01T07:06:37.508Z",
+        "updatedAt": "2024-05-24T08:26:29.750Z",
         "__v": 0,
         "isPublished": true,
         "subTitle": "A Simple Step-by-Step Guide to Managing Your Lifestyle"
@@ -190,8 +191,8 @@ export const comments_data = [
             "name": "Michael Scott",
             "content": "This is my new comment",
             "isApproved": false,
-            "createdAt": "2025-04-30T09:30:06.918Z",
-            "updatedAt": "2025-04-30T09:30:06.918Z",
+            "createdAt": "2024-01-30T09:30:06.918Z",
+            "updatedAt": "2024-04-30T09:30:06.918Z",
             "__v": 0
         },
         {
@@ -200,8 +201,8 @@ export const comments_data = [
             "name": "John Doe",
             "content": "This is a nice blog",
             "isApproved": false,
-            "createdAt": "2025-04-29T10:17:54.832Z",
-            "updatedAt": "2025-04-29T10:17:54.832Z",
+            "createdAt": "2023-04-29T10:17:54.832Z",
+            "updatedAt": "2025-01-29T10:17:54.832Z",
             "__v": 0
         },
         {
@@ -210,7 +211,7 @@ export const comments_data = [
             "name": "Jack London",
             "content": "Hi this blog is must to read",
             "isApproved": true,
-            "createdAt": "2025-04-22T11:12:46.547Z",
+            "createdAt": "2024-12-22T11:12:46.547Z",
             "updatedAt": "2025-04-22T11:13:10.015Z",
             "__v": 0
         },
@@ -220,7 +221,7 @@ export const comments_data = [
             "name": "Sam Smith",
             "content": "This is the best blog, everybody should read it",
             "isApproved": false,
-            "createdAt": "2025-04-22T10:34:22.020Z",
+            "createdAt": "2024-09-01T10:34:22.020Z",
             "updatedAt": "2025-04-22T10:34:22.020Z",
             "__v": 0
         },
@@ -230,8 +231,8 @@ export const comments_data = [
             "name": "Peter Lawrence",
             "content": "Honestly, I did not expect this to work, but it totally did. Saved my project!",
             "isApproved": true,
-            "createdAt": "2025-04-22T09:42:00.444Z",
-            "updatedAt": "2025-04-22T10:24:55.626Z",
+            "createdAt": "2025-02-01T09:42:00.444Z",
+            "updatedAt": "2025-02-05T10:24:55.626Z",
             "__v": 0
         }
     ]
